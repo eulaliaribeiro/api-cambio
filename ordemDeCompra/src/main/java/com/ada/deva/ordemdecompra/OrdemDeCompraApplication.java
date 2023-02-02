@@ -1,13 +1,13 @@
-package com.ada.deva.ordemDeCompra;
+package com.ada.deva.ordemdecompra;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CambioApiApplication {
+public class OrdemDeCompraApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CambioApiApplication.class, args);
+		SpringApplication.run(OrdemDeCompraApplication.class, args);
 	}
 
 }

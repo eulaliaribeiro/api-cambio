@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.ada.deva</groupId>
-	<artifactId>cambioApi</artifactId>
+	<artifactId>ordemDeCompra</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>cambioApi</name>
-	<description>API Casa de Câmbio - gera uma ordem de compra das moedas estrangeiras USD (dólar) e EUR (euro)</description>
+	<name>ordemDeCompra</name>
+	<description>ordemDeCompra</description>
 	<properties>
 		<java.version>11</java.version>
 	</properties>
