@@ -1,5 +1,6 @@
 package com.ada.deva.ordemdecompra;
 
+import com.ada.deva.comum.EntidadeDuplicadaException;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Service;
@@ -15,7 +16,7 @@ public class OrdemDeCompraService {
         return repository.findById(id);
     }
 
-    public void add(OrdemDeCompra entity) throws EntidadeDuplicadaException {
+    public void add(OrdemDeCompra entity) throws EntidadeDuplicadaException{
         if(repository.existsById(entity.getId())){
             throw new EntidadeDuplicadaException();
         }
