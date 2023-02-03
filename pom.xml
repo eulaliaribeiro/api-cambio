@@ -12,7 +12,7 @@
 	<artifactId>cambioApi</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>cambioApi</name>
-	<description>API Casa de Câmbio - gera uma ordem de compra das moedas estrangeiras USD (dólar) e EUR (euro)</description>
+	<description>API Casa de Câmbio - gera uma ordem de compra das moedas estrangeiras USD (dólar) e EUR (euro).</description>
 	<properties>
 		<java.version>11</java.version>
 	</properties>
