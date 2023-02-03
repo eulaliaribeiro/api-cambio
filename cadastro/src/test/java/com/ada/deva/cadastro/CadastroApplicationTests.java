@@ -1,13 +1,13 @@
-package com.ada.deva.oredemDeCompra;
+package com.ada.deva.cadastro;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class OredemDeCompraApplicationTests {
+class CadastroApplicationTests {
 
-	@Test
-	void contextLoads() {
-	}
+    @Test
+    void contextLoads() {
+    }
 
 }
